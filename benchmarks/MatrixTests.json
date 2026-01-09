@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-01-09T00:29:36.472Z",
+  "category": "MatrixTests",
+  "environment": {
+    "benchmarkDotNetVersion": "BenchmarkDotNet v0.15.8, Linux Ubuntu 24.04.3 LTS (Noble Numbat)",
+    "sdk": ".NET SDK 10.0.101",
+    "host": ".NET 10.0.1 (10.0.1, 10.0.125.57005), X64 RyuJIT x86-64-v3"
+  },
+  "results": [
+    {
+      "Method": "TUnit",
+      "Version": "1.9.26",
+      "Mean": "692.65 ms",
+      "Error": "13.341 ms",
+      "StdDev": "14.828 ms",
+      "Median": "686.45 ms"
+    },
+    {
+      "Method": "NUnit",
+      "Version": "4.4.0",
+      "Mean": "1,595.80 ms",
+      "Error": "10.079 ms",
+      "StdDev": "8.935 ms",
+      "Median": "1,593.81 ms"
+    },
+    {
+      "Method": "MSTest",
+      "Version": "4.0.2",
+      "Mean": "1,537.19 ms",
+      "Error": "13.387 ms",
+      "StdDev": "11.867 ms",
+      "Median": "1,535.72 ms"
+    },
+    {
+      "Method": "xUnit3",
+      "Version": "3.2.1",
+      "Mean": "1,613.36 ms",
+      "Error": "10.296 ms",
+      "StdDev": "9.631 ms",
+      "Median": "1,613.41 ms"
+    },
+    {
+      "Method": "TUnit_AOT",
+      "Version": "1.9.26",
+      "Mean": "79.89 ms",
+      "Error": "0.511 ms",
+      "StdDev": "0.478 ms",
+      "Median": "79.92 ms"
+    }
+  ]
+}
