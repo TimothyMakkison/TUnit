@@ -12110,7 +12110,7 @@ public async Task Record_Properties()
 # AsyncTests Benchmark
 
 :::info Last Updated
-This benchmark was automatically generated on **2026-01-14** from the latest CI run.
+This benchmark was automatically generated on **2026-01-15** from the latest CI run.
 
 **Environment:** Ubuntu Latest • .NET SDK 10.0.102
 :::
@@ -12119,11 +12119,11 @@ This benchmark was automatically generated on **2026-01-14** from the latest CI 
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| **TUnit** | 1.11.0 | 481.9 ms | 481.4 ms | 4.20 ms |
-| NUnit | 4.4.0 | 638.1 ms | 635.8 ms | 8.78 ms |
-| MSTest | 4.0.2 | 589.0 ms | 587.8 ms | 7.57 ms |
-| xUnit3 | 3.2.1 | 670.6 ms | 667.8 ms | 10.87 ms |
-| **TUnit (AOT)** | 1.11.0 | 121.3 ms | 121.3 ms | 0.26 ms |
+| **TUnit** | 1.11.28 | 513.1 ms | 511.9 ms | 4.31 ms |
+| NUnit | 4.4.0 | 672.5 ms | 669.8 ms | 6.88 ms |
+| MSTest | 4.0.2 | 614.4 ms | 613.8 ms | 5.94 ms |
+| xUnit3 | 3.2.2 | 741.6 ms | 736.5 ms | 11.70 ms |
+| **TUnit (AOT)** | 1.11.28 | 122.8 ms | 122.7 ms | 0.43 ms |
 
 ## 📈 Visual Comparison
 
@@ -12161,8 +12161,8 @@ This benchmark was automatically generated on **2026-01-14** from the latest CI 
 xychart-beta
   title "AsyncTests Performance Comparison"
   x-axis ["TUnit", "NUnit", "MSTest", "xUnit3", "TUnit_AOT"]
-  y-axis "Time (ms)" 0 --> 805
-  bar [481.9, 638.1, 589, 670.6, 121.3]
+  y-axis "Time (ms)" 0 --> 890
+  bar [513.1, 672.5, 614.4, 741.6, 122.8]
 ```
 
 ## 🎯 Key Insights
@@ -12175,7 +12175,7 @@ This benchmark compares TUnit's performance against NUnit, MSTest, xUnit3 using 
 View the [benchmarks overview](/docs/benchmarks) for methodology details and environment information.
 :::
 
-*Last generated: 2026-01-14T00:36:14.387Z*
+*Last generated: 2026-01-15T00:31:04.131Z*
 
 ---
 
@@ -12184,7 +12184,7 @@ View the [benchmarks overview](/docs/benchmarks) for methodology details and env
 # Build Performance Benchmark
 
 :::info Last Updated
-This benchmark was automatically generated on **2026-01-14** from the latest CI run.
+This benchmark was automatically generated on **2026-01-15** from the latest CI run.
 
 **Environment:** Ubuntu Latest • .NET SDK 10.0.102
 :::
@@ -12195,10 +12195,10 @@ Compilation time comparison across frameworks:
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| **TUnit** | 1.11.0 | 17.878 s | 17.823 s | 0.3615 s |
-| Build_NUnit | 4.4.0 | 1.542 s | 1.545 s | 0.0121 s |
-| Build_MSTest | 4.0.2 | 1.622 s | 1.619 s | 0.0110 s |
-| Build_xUnit3 | 3.2.1 | 1.548 s | 1.549 s | 0.0081 s |
+| **TUnit** | 1.11.28 | 1.942 s | 1.941 s | 0.0238 s |
+| Build_NUnit | 4.4.0 | 1.538 s | 1.536 s | 0.0148 s |
+| Build_MSTest | 4.0.2 | 1.621 s | 1.622 s | 0.0193 s |
+| Build_xUnit3 | 3.2.2 | 1.550 s | 1.555 s | 0.0173 s |
 
 ## 📈 Visual Comparison
 
@@ -12236,8 +12236,8 @@ Compilation time comparison across frameworks:
 xychart-beta
   title "Build Time Comparison"
   x-axis ["Build_TUnit", "Build_NUnit", "Build_MSTest", "Build_xUnit3"]
-  y-axis "Time (s)" 0 --> 22
-  bar [17.878, 1.542, 1.622, 1.548]
+  y-axis "Time (s)" 0 --> 3
+  bar [1.942, 1.538, 1.621, 1.55]
 ```
 
 ---
@@ -12246,7 +12246,7 @@ xychart-beta
 View the [benchmarks overview](/docs/benchmarks) for methodology details and environment information.
 :::
 
-*Last generated: 2026-01-14T00:36:14.390Z*
+*Last generated: 2026-01-15T00:31:04.133Z*
 
 ---
 
@@ -12255,7 +12255,7 @@ View the [benchmarks overview](/docs/benchmarks) for methodology details and env
 # DataDrivenTests Benchmark
 
 :::info Last Updated
-This benchmark was automatically generated on **2026-01-14** from the latest CI run.
+This benchmark was automatically generated on **2026-01-15** from the latest CI run.
 
 **Environment:** Ubuntu Latest • .NET SDK 10.0.102
 :::
@@ -12264,11 +12264,11 @@ This benchmark was automatically generated on **2026-01-14** from the latest CI 
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| **TUnit** | 1.11.0 | 435.58 ms | 436.41 ms | 3.055 ms |
-| NUnit | 4.4.0 | 552.23 ms | 547.00 ms | 17.482 ms |
-| MSTest | 4.0.2 | 568.53 ms | 570.50 ms | 21.795 ms |
-| xUnit3 | 3.2.1 | 573.70 ms | 570.01 ms | 10.219 ms |
-| **TUnit (AOT)** | 1.11.0 | 22.06 ms | 21.77 ms | 0.506 ms |
+| **TUnit** | 1.11.28 | 474.43 ms | 474.23 ms | 7.745 ms |
+| NUnit | 4.4.0 | 587.60 ms | 587.47 ms | 14.704 ms |
+| MSTest | 4.0.2 | 553.14 ms | 553.29 ms | 17.074 ms |
+| xUnit3 | 3.2.2 | 643.96 ms | 643.91 ms | 9.637 ms |
+| **TUnit (AOT)** | 1.11.28 | 25.39 ms | 25.37 ms | 0.389 ms |
 
 ## 📈 Visual Comparison
 
@@ -12306,8 +12306,8 @@ This benchmark was automatically generated on **2026-01-14** from the latest CI 
 xychart-beta
   title "DataDrivenTests Performance Comparison"
   x-axis ["TUnit", "NUnit", "MSTest", "xUnit3", "TUnit_AOT"]
-  y-axis "Time (ms)" 0 --> 689
-  bar [435.58, 552.23, 568.53, 573.7, 22.06]
+  y-axis "Time (ms)" 0 --> 773
+  bar [474.43, 587.6, 553.14, 643.96, 25.39]
 ```
 
 ## 🎯 Key Insights
@@ -12320,7 +12320,7 @@ This benchmark compares TUnit's performance against NUnit, MSTest, xUnit3 using 
 View the [benchmarks overview](/docs/benchmarks) for methodology details and environment information.
 :::
 
-*Last generated: 2026-01-14T00:36:14.388Z*
+*Last generated: 2026-01-15T00:31:04.132Z*
 
 ---
 
@@ -12329,7 +12329,7 @@ View the [benchmarks overview](/docs/benchmarks) for methodology details and env
 # MassiveParallelTests Benchmark
 
 :::info Last Updated
-This benchmark was automatically generated on **2026-01-14** from the latest CI run.
+This benchmark was automatically generated on **2026-01-15** from the latest CI run.
 
 **Environment:** Ubuntu Latest • .NET SDK 10.0.102
 :::
@@ -12338,11 +12338,11 @@ This benchmark was automatically generated on **2026-01-14** from the latest CI 
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| **TUnit** | 1.11.0 | 550.4 ms | 549.6 ms | 4.31 ms |
-| NUnit | 4.4.0 | 1,240.9 ms | 1,241.2 ms | 7.64 ms |
-| MSTest | 4.0.2 | 2,998.5 ms | 2,997.7 ms | 7.57 ms |
-| xUnit3 | 3.2.1 | 3,088.6 ms | 3,091.0 ms | 9.26 ms |
-| **TUnit (AOT)** | 1.11.0 | 128.3 ms | 128.4 ms | 0.39 ms |
+| **TUnit** | 1.11.28 | 574.2 ms | 573.2 ms | 3.11 ms |
+| NUnit | 4.4.0 | 1,219.4 ms | 1,219.2 ms | 5.29 ms |
+| MSTest | 4.0.2 | 2,979.3 ms | 2,980.4 ms | 6.70 ms |
+| xUnit3 | 3.2.2 | 3,120.9 ms | 3,121.2 ms | 9.95 ms |
+| **TUnit (AOT)** | 1.11.28 | 129.9 ms | 129.8 ms | 0.48 ms |
 
 ## 📈 Visual Comparison
 
@@ -12380,8 +12380,8 @@ This benchmark was automatically generated on **2026-01-14** from the latest CI 
 xychart-beta
   title "MassiveParallelTests Performance Comparison"
   x-axis ["TUnit", "NUnit", "MSTest", "xUnit3", "TUnit_AOT"]
-  y-axis "Time (ms)" 0 --> 3707
-  bar [550.4, 1240.9, 2998.5, 3088.6, 128.3]
+  y-axis "Time (ms)" 0 --> 3746
+  bar [574.2, 1219.4, 2979.3, 3120.9, 129.9]
 ```
 
 ## 🎯 Key Insights
@@ -12394,7 +12394,7 @@ This benchmark compares TUnit's performance against NUnit, MSTest, xUnit3 using 
 View the [benchmarks overview](/docs/benchmarks) for methodology details and environment information.
 :::
 
-*Last generated: 2026-01-14T00:36:14.388Z*
+*Last generated: 2026-01-15T00:31:04.132Z*
 
 ---
 
@@ -12403,7 +12403,7 @@ View the [benchmarks overview](/docs/benchmarks) for methodology details and env
 # MatrixTests Benchmark
 
 :::info Last Updated
-This benchmark was automatically generated on **2026-01-14** from the latest CI run.
+This benchmark was automatically generated on **2026-01-15** from the latest CI run.
 
 **Environment:** Ubuntu Latest • .NET SDK 10.0.102
 :::
@@ -12412,11 +12412,11 @@ This benchmark was automatically generated on **2026-01-14** from the latest CI 
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| **TUnit** | 1.11.0 | 506.59 ms | 507.08 ms | 1.505 ms |
-| NUnit | 4.4.0 | 1,544.20 ms | 1,542.02 ms | 7.888 ms |
-| MSTest | 4.0.2 | 1,489.76 ms | 1,490.13 ms | 12.188 ms |
-| xUnit3 | 3.2.1 | 1,584.98 ms | 1,586.06 ms | 11.742 ms |
-| **TUnit (AOT)** | 1.11.0 | 76.67 ms | 76.66 ms | 0.369 ms |
+| **TUnit** | 1.11.28 | 497.35 ms | 496.58 ms | 4.673 ms |
+| NUnit | 4.4.0 | 1,545.88 ms | 1,544.78 ms | 6.268 ms |
+| MSTest | 4.0.2 | 1,492.38 ms | 1,489.76 ms | 10.975 ms |
+| xUnit3 | 3.2.2 | 1,607.81 ms | 1,607.70 ms | 8.162 ms |
+| **TUnit (AOT)** | 1.11.28 | 76.70 ms | 76.65 ms | 0.457 ms |
 
 ## 📈 Visual Comparison
 
@@ -12454,8 +12454,8 @@ This benchmark was automatically generated on **2026-01-14** from the latest CI 
 xychart-beta
   title "MatrixTests Performance Comparison"
   x-axis ["TUnit", "NUnit", "MSTest", "xUnit3", "TUnit_AOT"]
-  y-axis "Time (ms)" 0 --> 1902
-  bar [506.59, 1544.2, 1489.76, 1584.98, 76.67]
+  y-axis "Time (ms)" 0 --> 1930
+  bar [497.35, 1545.88, 1492.38, 1607.81, 76.7]
 ```
 
 ## 🎯 Key Insights
@@ -12468,7 +12468,7 @@ This benchmark compares TUnit's performance against NUnit, MSTest, xUnit3 using 
 View the [benchmarks overview](/docs/benchmarks) for methodology details and environment information.
 :::
 
-*Last generated: 2026-01-14T00:36:14.388Z*
+*Last generated: 2026-01-15T00:31:04.132Z*
 
 ---
 
@@ -12477,7 +12477,7 @@ View the [benchmarks overview](/docs/benchmarks) for methodology details and env
 # ScaleTests Benchmark
 
 :::info Last Updated
-This benchmark was automatically generated on **2026-01-14** from the latest CI run.
+This benchmark was automatically generated on **2026-01-15** from the latest CI run.
 
 **Environment:** Ubuntu Latest • .NET SDK 10.0.102
 :::
@@ -12486,11 +12486,11 @@ This benchmark was automatically generated on **2026-01-14** from the latest CI 
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| **TUnit** | 1.11.0 | 467.07 ms | 468.10 ms | 6.016 ms |
-| NUnit | 4.4.0 | 604.67 ms | 601.90 ms | 10.021 ms |
-| MSTest | 4.0.2 | 550.35 ms | 549.21 ms | 18.931 ms |
-| xUnit3 | 3.2.1 | 590.54 ms | 588.96 ms | 11.520 ms |
-| **TUnit (AOT)** | 1.11.0 | 41.26 ms | 40.95 ms | 3.184 ms |
+| **TUnit** | 1.11.28 | 464.91 ms | 465.14 ms | 3.059 ms |
+| NUnit | 4.4.0 | 607.71 ms | 608.82 ms | 10.035 ms |
+| MSTest | 4.0.2 | 575.93 ms | 570.65 ms | 17.083 ms |
+| xUnit3 | 3.2.2 | 629.95 ms | 628.94 ms | 8.820 ms |
+| **TUnit (AOT)** | 1.11.28 | 40.42 ms | 40.25 ms | 3.485 ms |
 
 ## 📈 Visual Comparison
 
@@ -12528,8 +12528,8 @@ This benchmark was automatically generated on **2026-01-14** from the latest CI 
 xychart-beta
   title "ScaleTests Performance Comparison"
   x-axis ["TUnit", "NUnit", "MSTest", "xUnit3", "TUnit_AOT"]
-  y-axis "Time (ms)" 0 --> 726
-  bar [467.07, 604.67, 550.35, 590.54, 41.26]
+  y-axis "Time (ms)" 0 --> 756
+  bar [464.91, 607.71, 575.93, 629.95, 40.42]
 ```
 
 ## 🎯 Key Insights
@@ -12542,7 +12542,7 @@ This benchmark compares TUnit's performance against NUnit, MSTest, xUnit3 using 
 View the [benchmarks overview](/docs/benchmarks) for methodology details and environment information.
 :::
 
-*Last generated: 2026-01-14T00:36:14.389Z*
+*Last generated: 2026-01-15T00:31:04.133Z*
 
 ---
 
@@ -12551,7 +12551,7 @@ View the [benchmarks overview](/docs/benchmarks) for methodology details and env
 # SetupTeardownTests Benchmark
 
 :::info Last Updated
-This benchmark was automatically generated on **2026-01-14** from the latest CI run.
+This benchmark was automatically generated on **2026-01-15** from the latest CI run.
 
 **Environment:** Ubuntu Latest • .NET SDK 10.0.102
 :::
@@ -12560,11 +12560,11 @@ This benchmark was automatically generated on **2026-01-14** from the latest CI 
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| **TUnit** | 1.11.0 | 544.5 ms | 543.3 ms | 5.18 ms |
-| NUnit | 4.4.0 | 1,190.5 ms | 1,186.3 ms | 13.23 ms |
-| MSTest | 4.0.2 | 1,133.6 ms | 1,134.9 ms | 8.21 ms |
-| xUnit3 | 3.2.1 | 1,214.5 ms | 1,215.2 ms | 3.52 ms |
-| **TUnit (AOT)** | 1.11.0 | NA | NA | NA |
+| **TUnit** | 1.11.28 | 556.5 ms | 556.2 ms | 5.57 ms |
+| NUnit | 4.4.0 | 1,172.9 ms | 1,171.8 ms | 11.71 ms |
+| MSTest | 4.0.2 | 1,126.4 ms | 1,120.8 ms | 14.32 ms |
+| xUnit3 | 3.2.2 | 1,270.1 ms | 1,268.3 ms | 16.77 ms |
+| **TUnit (AOT)** | 1.11.28 | NA | NA | NA |
 
 ## 📈 Visual Comparison
 
@@ -12602,8 +12602,8 @@ This benchmark was automatically generated on **2026-01-14** from the latest CI 
 xychart-beta
   title "SetupTeardownTests Performance Comparison"
   x-axis ["TUnit", "NUnit", "MSTest", "xUnit3", "TUnit_AOT"]
-  y-axis "Time (ms)" 0 --> 1458
-  bar [544.5, 1190.5, 1133.6, 1214.5, 0]
+  y-axis "Time (ms)" 0 --> 1525
+  bar [556.5, 1172.9, 1126.4, 1270.1, 0]
 ```
 
 ## 🎯 Key Insights
@@ -12616,7 +12616,7 @@ This benchmark compares TUnit's performance against NUnit, MSTest, xUnit3 using 
 View the [benchmarks overview](/docs/benchmarks) for methodology details and environment information.
 :::
 
-*Last generated: 2026-01-14T00:36:14.389Z*
+*Last generated: 2026-01-15T00:31:04.133Z*
 
 ---
 
@@ -12624,7 +12624,7 @@ View the [benchmarks overview](/docs/benchmarks) for methodology details and env
 
 
 :::info Last Updated
-These benchmarks were automatically generated on **2026-01-14** from the latest CI run.
+These benchmarks were automatically generated on **2026-01-15** from the latest CI run.
 
 **Environment:** Ubuntu Latest • .NET SDK 10.0.102
 :::
@@ -12652,8 +12652,8 @@ These benchmarks compare TUnit against the most popular .NET testing frameworks:
 
 | Framework | Version Tested |
 |-----------|----------------|
-| **TUnit** | 1.11.0 |
-| **xUnit v3** | 3.2.1 |
+| **TUnit** | 1.11.28 |
+| **xUnit v3** | 3.2.2 |
 | **NUnit** | 4.4.0 |
 | **MSTest** | 4.0.2 |
 
@@ -12695,7 +12695,7 @@ These benchmarks run automatically daily via [GitHub Actions](https://github.com
 Each benchmark runs multiple iterations with statistical analysis to ensure accuracy. Results may vary based on hardware and test characteristics.
 :::
 
-*Last generated: 2026-01-14T00:36:14.390Z*
+*Last generated: 2026-01-15T00:31:04.134Z*
 
 ---
 
@@ -16485,7 +16485,21 @@ As TUnit is built on top of Microsoft.Testing.Platform, it can tap into generic 
 
 ## Built-In Extensions
 
-The following extensions are **automatically included** when you install the **TUnit** meta package. You don't need to install them separately!
+The following extensions are **automatically included** when you install the **TUnit** meta package:
+
+- **Code Coverage** - via `Microsoft.Testing.Extensions.CodeCoverage`
+- **TRX Test Reports** - via `Microsoft.Testing.Extensions.TrxReport`
+- **Telemetry** - via `Microsoft.Testing.Extensions.Telemetry`
+
+:::tip Opting Out of Built-In Extensions
+If you don't want these extensions, you can reference `TUnit.Engine` and `TUnit.Assertions` packages separately instead of the `TUnit` meta package.
+
+```xml
+<!-- Instead of the TUnit meta package -->
+<PackageReference Include="TUnit.Engine" Version="x.x.x" />
+<PackageReference Include="TUnit.Assertions" Version="x.x.x" />
+```
+:::
 
 ### Code Coverage
 
@@ -16594,6 +16608,33 @@ dotnet run --configuration Release --results-directory ./reports --report-trx --
 
 **📚 More Resources:**
 - [Microsoft's TRX Report Documentation](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-platform-extensions-test-reports)
+
+---
+
+### Telemetry
+
+Telemetry is provided via the `Microsoft.Testing.Extensions.Telemetry` NuGet package.
+
+**✅ Included automatically with the TUnit package**
+
+This extension enables Microsoft to collect anonymous usage metrics to help improve the testing platform. No personal data or source code is collected.
+
+#### Opting Out
+
+You can disable telemetry by setting an environment variable:
+
+```bash
+# Linux/macOS
+export TESTINGPLATFORM_TELEMETRY_OPTOUT=1
+
+# Windows
+set TESTINGPLATFORM_TELEMETRY_OPTOUT=1
+```
+
+Alternatively, you can use `DOTNET_CLI_TELEMETRY_OPTOUT=1` which also disables .NET SDK telemetry.
+
+**📚 More Resources:**
+- [Microsoft.Testing.Platform Telemetry Documentation](https://learn.microsoft.com/en-us/dotnet/core/testing/microsoft-testing-platform-telemetry)
 
 ---
 
@@ -18840,53 +18881,158 @@ Migrating from MSTest to TUnit can improve test execution speed. Check the [benc
 
 ## Automated Migration with Code Fixers
 
-TUnit includes code fixers that automate most of the migration work.
+TUnit includes Roslyn analyzers and code fixers that automate most of the migration work. The `TUMS0001` diagnostic identifies MSTest code patterns and provides automatic fixes to convert them to TUnit equivalents.
 
-**What gets converted:**
-- Tests to `async Task` with awaited assertions
-- Removes `[TestClass]`, converts `[TestMethod]` → `[Test]`
-- MSTest assertions to TUnit's fluent syntax
-- `[DataRow]` → `[Arguments]`, `[DynamicData]` → `[MethodDataSource]`
-- `[TestInitialize]`/`[TestCleanup]` → `[Before(Test)]`/`[After(Test)]`
+**What gets converted automatically:**
+- `[TestClass]` → removed (not needed in TUnit)
+- `[TestMethod]` → `[Test]`
+- `[DataTestMethod]` → `[Test]`
+- `[DataRow(...)]` → `[Arguments(...)]`
+- `[DynamicData(nameof(...), ...)]` → `[MethodDataSource(nameof(...))]`
+- `[TestInitialize]` → `[Before(Test)]`
+- `[TestCleanup]` → `[After(Test)]`
+- `[ClassInitialize]` → `[Before(Class)]` (removes `TestContext` parameter)
+- `[ClassCleanup]` → `[After(Class)]`
+- `[AssemblyInitialize]` → `[Before(Assembly)]` (removes `TestContext` parameter)
+- `[AssemblyCleanup]` → `[After(Assembly)]`
+- `[Ignore]` → `[Skip]`
+- `[TestCategory("...")]` → `[Property("Category", "...")]`
+- `[Priority(n)]` → `[Property("Priority", "n")]`
+- `[Owner("...")]` → `[Property("Owner", "...")]`
+- `Assert.AreEqual(expected, actual)` → `await Assert.That(actual).IsEqualTo(expected)`
+- `Assert.IsTrue(condition)` → `await Assert.That(condition).IsTrue()`
+- `Assert.ThrowsException<T>(...)` → `await Assert.ThrowsAsync<T>(...)`
+- Test methods converted to `async Task` with `await` on assertions
 
-The code fixer handles most common patterns automatically (roughly 80-90% of typical test suites). You'll need to manually adjust complex cases like TestContext usage or intricate async patterns.
+The code fixer handles roughly 80-90% of typical test suites automatically.
 
-If you find something that should be automated but isn't, please [open an issue](https://github.com/thomhurst/TUnit/issues).
+**What requires manual adjustment:**
+- `public TestContext TestContext { get; set; }` property → inject `TestContext` as method parameter instead
+- `[ClassInitialize]` / `[AssemblyInitialize]` methods that use the `TestContext` parameter
+- Custom `[DynamicData]` return types (convert `IEnumerable<object[]>` to `IEnumerable<(...)>` tuples)
+- `[DeploymentItem]` attributes → configure file copying in `.csproj` instead
+- `Assert.Inconclusive("...")` → `Skip.Test("...")`
+- `[ExpectedException]` attribute (deprecated) → `await Assert.ThrowsAsync<T>(...)`
+- Complex `TestContext` property access patterns
 
-### Steps
+If you find a common pattern that should be automated but isn't, please [open an issue](https://github.com/thomhurst/TUnit/issues).
 
-#### Install the TUnit packages to your test projects
-Use your IDE or the dotnet CLI to add the TUnit packages to your test projects
+### Prerequisites
 
-#### Remove the automatically added global usings
-In your csproj add:
+- .NET SDK 8.0 or later (for `dotnet format` with analyzer support)
+- TUnit packages installed in your test project
 
-```xml
-    <PropertyGroup>
-        <TUnitImplicitUsings>false</TUnitImplicitUsings>
-        <TUnitAssertionsImplicitUsings>false</TUnitAssertionsImplicitUsings>
-    </PropertyGroup>
+### Step-by-Step Migration
+
+:::tip Safety First
+Commit your changes or create a backup before running the code fixer. This allows you to review changes and revert if needed.
+:::
+
+**1. Install TUnit packages**
+
+Add the TUnit packages to your test project alongside MSTest (temporarily):
+
+```bash
+dotnet add package TUnit
 ```
 
-This is temporary - Just to make sure no types clash, and so the code fixers can distinguish between MSTest and TUnit types with similar names.
+**2. Disable TUnit's implicit usings (temporary)**
 
-#### Rebuild the project
-This ensures the TUnit packages have been restored and the analyzers should be loaded.
+Add these properties to your `.csproj` to prevent type name conflicts between MSTest and TUnit:
 
-#### Run the code fixer via the dotnet CLI
+```xml
+<PropertyGroup>
+    <TUnitImplicitUsings>false</TUnitImplicitUsings>
+    <TUnitAssertionsImplicitUsings>false</TUnitAssertionsImplicitUsings>
+</PropertyGroup>
+```
 
-`dotnet format analyzers --severity info --diagnostics TUMS0001`
+This allows the code fixer to distinguish between `Microsoft.VisualStudio.TestTools.UnitTesting.Assert` and `TUnit.Assertions.Assert`.
 
-#### Revert step `Remove the automatically added global usings`
+**3. Rebuild the project**
 
-#### Perform any manual bits that are still necessary
-Review the converted code and make any necessary manual adjustments.
-Raise an issue if you think something could be automated.
+```bash
+dotnet build
+```
 
-#### Remove the MSTest packages
-Simply uninstall them once you've migrated
+This restores packages and loads the TUnit analyzers. You should see `TUMS0001` warnings in your build output for MSTest code that can be converted.
 
-#### Done! (Hopefully)
+**4. Run the automated code fixer**
+
+```bash
+dotnet format analyzers --severity info --diagnostics TUMS0001
+```
+
+This command applies all available fixes for the `TUMS0001` diagnostic. You'll see output indicating which files were modified.
+
+**5. Remove the implicit usings workaround**
+
+Remove or comment out the properties you added in step 2:
+
+```xml
+<!-- Remove these lines -->
+<PropertyGroup>
+    <TUnitImplicitUsings>false</TUnitImplicitUsings>
+    <TUnitAssertionsImplicitUsings>false</TUnitAssertionsImplicitUsings>
+</PropertyGroup>
+```
+
+**6. Fix remaining issues manually**
+
+Build the project and address any remaining compilation errors:
+
+```bash
+dotnet build
+```
+
+Common manual fixes needed:
+- Replace `public TestContext TestContext { get; set; }` with `TestContext` method parameter
+- Remove `TestContext` parameter from `[ClassInitialize]` and `[AssemblyInitialize]` methods
+- Convert data source methods to return tuples instead of `object[]`
+- Replace `[DeploymentItem]` with `.csproj` file copy configuration
+- Replace `Assert.Inconclusive(...)` with `Skip.Test(...)`
+- Add `using TUnit.Core;` and `using TUnit.Assertions;` if not using implicit usings
+
+**7. Remove MSTest packages**
+
+Once everything compiles and tests pass:
+
+```bash
+dotnet remove package MSTest.TestFramework
+dotnet remove package MSTest.TestAdapter
+```
+
+**8. Verify the migration**
+
+```bash
+dotnet build
+dotnet run -- --list-tests
+```
+
+### Troubleshooting
+
+**Code fixer doesn't run / no files changed:**
+- Ensure you rebuilt after adding TUnit packages
+- Check that `TUMS0001` warnings appear in build output
+- Try running with verbose output: `dotnet format analyzers --severity info --diagnostics TUMS0001 --verbosity detailed`
+
+**Build errors after running code fixer:**
+- Missing `await` keywords: ensure test methods are `async Task`
+- Ambiguous `Assert`: remove MSTest usings or fully qualify types
+- Type mismatch in data sources: convert `IEnumerable<object[]>` returns to `IEnumerable<(...)>` tuples
+
+**TestContext errors:**
+- Remove the `public TestContext TestContext { get; set; }` property
+- Add `TestContext context` parameter to test methods that need it
+- Access output via `context.OutputWriter.WriteLine(...)` instead of `TestContext.WriteLine(...)`
+
+**ClassInitialize/AssemblyInitialize errors:**
+- Remove the `TestContext context` parameter from these methods
+- If you need test context in setup, use `[Before(Test)]` instead which can receive `TestContext`
+
+**Analyzers not loading:**
+- Verify TUnit package is installed: `dotnet list package`
+- Try cleaning and rebuilding: `dotnet clean && dotnet build`
 
 ## Manual Migration Guide
 
@@ -20005,53 +20151,140 @@ Migrating from NUnit to TUnit can improve test execution speed. Check the [bench
 
 ## Automated Migration with Code Fixers
 
-TUnit includes code fixers that automate most of the migration work.
+TUnit includes Roslyn analyzers and code fixers that automate most of the migration work. The `TUNU0001` diagnostic identifies NUnit code patterns and provides automatic fixes to convert them to TUnit equivalents.
 
-**What gets converted:**
-- Tests to `async Task` with awaited assertions
-- Removes `[TestFixture]`, converts `[TestCase]` → `[Arguments]`
-- Both classic and constraint-based NUnit assertions to TUnit's fluent syntax
-- `[TestCaseSource]` → `[MethodDataSource]`
-- `[SetUp]`/`[TearDown]` → `[Before(Test)]`/`[After(Test)]`
+**What gets converted automatically:**
+- `[TestFixture]` → removed (not needed in TUnit)
+- `[Test]` → `[Test]` (stays the same)
+- `[TestCase(...)]` → `[Arguments(...)]`
+- `[TestCaseSource(nameof(...))]` → `[MethodDataSource(nameof(...))]`
+- `[SetUp]` → `[Before(Test)]`
+- `[TearDown]` → `[After(Test)]`
+- `[OneTimeSetUp]` → `[Before(Class)]`
+- `[OneTimeTearDown]` → `[After(Class)]`
+- `[Ignore]` → `[Skip]`
+- `[Category("...")]` → `[Property("Category", "...")]`
+- Classic assertions: `Assert.AreEqual(expected, actual)` → `await Assert.That(actual).IsEqualTo(expected)`
+- Constraint assertions: `Assert.That(actual, Is.EqualTo(expected))` → `await Assert.That(actual).IsEqualTo(expected)`
+- Test methods converted to `async Task` with `await` on assertions
 
-The code fixer handles most common patterns automatically (roughly 80-90% of typical test suites). You'll need to manually adjust complex cases like custom fixtures or intricate async patterns.
+The code fixer handles roughly 80-90% of typical test suites automatically.
 
-If you find something that should be automated but isn't, please [open an issue](https://github.com/thomhurst/TUnit/issues).
+**What requires manual adjustment:**
+- Custom `[TestCaseSource]` return types (convert `object[]` to tuples)
+- Complex async patterns or custom awaitable types
+- Custom fixtures or test base classes
+- `[SetUpFixture]` with namespace-scoped setup (convert to assembly hooks)
+- `TestContext.CurrentContext` static access (inject `TestContext` as parameter instead)
+- `Assert.Multiple` blocks (use assertion groups or multiple awaited assertions)
 
-### Steps
+If you find a common pattern that should be automated but isn't, please [open an issue](https://github.com/thomhurst/TUnit/issues).
 
-#### Install the TUnit packages to your test projects
-Use your IDE or the dotnet CLI to add the TUnit packages to your test projects
+### Prerequisites
 
-#### Remove the automatically added global usings
-In your csproj add:
+- .NET SDK 8.0 or later (for `dotnet format` with analyzer support)
+- TUnit packages installed in your test project
 
-```xml
-    <PropertyGroup>
-        <TUnitImplicitUsings>false</TUnitImplicitUsings>
-        <TUnitAssertionsImplicitUsings>false</TUnitAssertionsImplicitUsings>
-    </PropertyGroup>
+### Step-by-Step Migration
+
+:::tip Safety First
+Commit your changes or create a backup before running the code fixer. This allows you to review changes and revert if needed.
+:::
+
+**1. Install TUnit packages**
+
+Add the TUnit packages to your test project alongside NUnit (temporarily):
+
+```bash
+dotnet add package TUnit
 ```
 
-This is temporary - Just to make sure no types clash, and so the code fixers can distinguish between NUnit and TUnit types with similar names.
+**2. Disable TUnit's implicit usings (temporary)**
 
-#### Rebuild the project
-This ensures the TUnit packages have been restored and the analyzers should be loaded.
+Add these properties to your `.csproj` to prevent type name conflicts between NUnit and TUnit:
 
-#### Run the code fixer via the dotnet CLI
+```xml
+<PropertyGroup>
+    <TUnitImplicitUsings>false</TUnitImplicitUsings>
+    <TUnitAssertionsImplicitUsings>false</TUnitAssertionsImplicitUsings>
+</PropertyGroup>
+```
 
-`dotnet format analyzers --severity info --diagnostics TUNU0001`
+This allows the code fixer to distinguish between `NUnit.Framework.Assert` and `TUnit.Assertions.Assert`.
 
-#### Revert step `Remove the automatically added global usings`
+**3. Rebuild the project**
 
-#### Perform any manual bits that are still necessary
-Review the converted code and make any necessary manual adjustments.
-Raise an issue if you think something could be automated.
+```bash
+dotnet build
+```
 
-#### Remove the NUnit packages
-Simply uninstall them once you've migrated
+This restores packages and loads the TUnit analyzers. You should see `TUNU0001` warnings in your build output for NUnit code that can be converted.
 
-#### Done! (Hopefully)
+**4. Run the automated code fixer**
+
+```bash
+dotnet format analyzers --severity info --diagnostics TUNU0001
+```
+
+This command applies all available fixes for the `TUNU0001` diagnostic. You'll see output indicating which files were modified.
+
+**5. Remove the implicit usings workaround**
+
+Remove or comment out the properties you added in step 2:
+
+```xml
+<!-- Remove these lines -->
+<PropertyGroup>
+    <TUnitImplicitUsings>false</TUnitImplicitUsings>
+    <TUnitAssertionsImplicitUsings>false</TUnitAssertionsImplicitUsings>
+</PropertyGroup>
+```
+
+**6. Fix remaining issues manually**
+
+Build the project and address any remaining compilation errors:
+
+```bash
+dotnet build
+```
+
+Common manual fixes needed:
+- Add `using TUnit.Core;` and `using TUnit.Assertions;` if not using implicit usings
+- Convert data source methods to return tuples instead of `object[]`
+- Replace `TestContext.CurrentContext` with injected `TestContext` parameter
+- Update any custom assertion extensions
+
+**7. Remove NUnit packages**
+
+Once everything compiles and tests pass:
+
+```bash
+dotnet remove package NUnit
+dotnet remove package NUnit3TestAdapter
+```
+
+**8. Verify the migration**
+
+```bash
+dotnet build
+dotnet run -- --list-tests
+```
+
+### Troubleshooting
+
+**Code fixer doesn't run / no files changed:**
+- Ensure you rebuilt after adding TUnit packages
+- Check that `TUNU0001` warnings appear in build output
+- Try running with verbose output: `dotnet format analyzers --severity info --diagnostics TUNU0001 --verbosity detailed`
+
+**Build errors after running code fixer:**
+- Missing `await` keywords: ensure test methods are `async Task`
+- Ambiguous `Assert`: remove NUnit usings or fully qualify types
+- Type mismatch in data sources: convert `object[]` returns to tuples
+
+**Analyzers not loading:**
+- Verify TUnit package is installed: `dotnet list package`
+- Try cleaning and rebuilding: `dotnet clean && dotnet build`
 
 ## Manual Migration Guide
 
@@ -21338,53 +21571,145 @@ Migrating from xUnit to TUnit can improve test execution speed. Check the [bench
 
 ## Automated Migration with Code Fixers
 
-TUnit includes code fixers that automate most of the migration work.
+TUnit includes Roslyn analyzers and code fixers that automate most of the migration work. The `TUXU0001` diagnostic identifies xUnit code patterns and provides automatic fixes to convert them to TUnit equivalents.
 
-**What gets converted:**
-- Tests to `async Task` with awaited assertions
-- `[Fact]` → `[Test]`, `[Theory]` → `[Test]`
-- xUnit assertions to TUnit's fluent syntax
-- `[InlineData]` → `[Arguments]`, `[MemberData]` → `[MethodDataSource]`
-- Constructors and IDisposable to TUnit hooks
+**What gets converted automatically:**
+- `[Fact]` → `[Test]`
+- `[Theory]` → `[Test]`
+- `[InlineData(...)]` → `[Arguments(...)]`
+- `[MemberData(nameof(...))]` → `[MethodDataSource(nameof(...))]`
+- `[Trait("key", "value")]` → `[Property("key", "value")]`
+- `Assert.Equal(expected, actual)` → `await Assert.That(actual).IsEqualTo(expected)`
+- `Assert.True(condition)` → `await Assert.That(condition).IsTrue()`
+- `Assert.Throws<T>(...)` → `await Assert.ThrowsAsync<T>(...)`
+- `Assert.Contains(item, collection)` → `await Assert.That(collection).Contains(item)`
+- Test methods converted to `async Task` with `await` on assertions
 
-The code fixer handles most common patterns automatically (roughly 80-90% of typical test suites). You'll need to manually adjust complex cases like custom fixtures or intricate async patterns.
+The code fixer handles roughly 80-90% of typical test suites automatically.
 
-If you find something that should be automated but isn't, please [open an issue](https://github.com/thomhurst/TUnit/issues).
+**What requires manual adjustment:**
+- `IClassFixture<T>` → `[ClassDataSource<T>(Shared = SharedType.PerClass)]` on the class
+- `ICollectionFixture<T>` and `[Collection("name")]` → `[ClassDataSource<T>(Shared = SharedType.Keyed, Key = "name")]`
+- `IAsyncLifetime` → `[Before(Test)]` and `[After(Test)]` methods
+- `ITestOutputHelper` → `TestContext` parameter injection
+- Custom `MemberData` return types (convert `IEnumerable<object[]>` to `IEnumerable<(...)>` tuples)
+- `[ClassData(typeof(...))]` → `[MethodDataSource(nameof(ClassName.Method))]`
+- Constructor injection of fixtures → primary constructor with `[ClassDataSource<T>]` attribute
+- Collection definitions → remove `ICollectionFixture` classes entirely
 
-### Steps
+If you find a common pattern that should be automated but isn't, please [open an issue](https://github.com/thomhurst/TUnit/issues).
 
-#### Install the TUnit packages to your test projects
-Use your IDE or the dotnet CLI to add the TUnit packages to your test projects
+### Prerequisites
 
-#### Remove the automatically added global usings
-In your csproj add:
+- .NET SDK 8.0 or later (for `dotnet format` with analyzer support)
+- TUnit packages installed in your test project
 
-```xml
-    <PropertyGroup>
-        <TUnitImplicitUsings>false</TUnitImplicitUsings>
-        <TUnitAssertionsImplicitUsings>false</TUnitAssertionsImplicitUsings>
-    </PropertyGroup>
+### Step-by-Step Migration
+
+:::tip Safety First
+Commit your changes or create a backup before running the code fixer. This allows you to review changes and revert if needed.
+:::
+
+**1. Install TUnit packages**
+
+Add the TUnit packages to your test project alongside xUnit (temporarily):
+
+```bash
+dotnet add package TUnit
 ```
 
-This is temporary - Just to make sure no types clash, and so the code fixers can distinguish between xUnit and TUnit types with similar names.
+**2. Disable TUnit's implicit usings (temporary)**
 
-#### Rebuild the project
-This ensures the TUnit packages have been restored and the analyzers should be loaded.
+Add these properties to your `.csproj` to prevent type name conflicts between xUnit and TUnit:
 
-#### Run the code fixer via the dotnet CLI
+```xml
+<PropertyGroup>
+    <TUnitImplicitUsings>false</TUnitImplicitUsings>
+    <TUnitAssertionsImplicitUsings>false</TUnitAssertionsImplicitUsings>
+</PropertyGroup>
+```
 
-`dotnet format analyzers --severity info --diagnostics TUXU0001`
+This allows the code fixer to distinguish between `Xunit.Assert` and `TUnit.Assertions.Assert`.
 
-#### Revert step `Remove the automatically added global usings`
+**3. Rebuild the project**
 
-#### Perform any manual bits that are still necessary
-This bit's on you! You'll have to work out what still needs doing.
-Raise an issue if you think it could be automated.
+```bash
+dotnet build
+```
 
-#### Remove the xUnit packages
-Simply uninstall them once you've migrated
+This restores packages and loads the TUnit analyzers. You should see `TUXU0001` warnings in your build output for xUnit code that can be converted.
 
-#### Done! (Hopefully)
+**4. Run the automated code fixer**
+
+```bash
+dotnet format analyzers --severity info --diagnostics TUXU0001
+```
+
+This command applies all available fixes for the `TUXU0001` diagnostic. You'll see output indicating which files were modified.
+
+**5. Remove the implicit usings workaround**
+
+Remove or comment out the properties you added in step 2:
+
+```xml
+<!-- Remove these lines -->
+<PropertyGroup>
+    <TUnitImplicitUsings>false</TUnitImplicitUsings>
+    <TUnitAssertionsImplicitUsings>false</TUnitAssertionsImplicitUsings>
+</PropertyGroup>
+```
+
+**6. Fix remaining issues manually**
+
+Build the project and address any remaining compilation errors:
+
+```bash
+dotnet build
+```
+
+Common manual fixes needed:
+- Replace `IClassFixture<T>` with `[ClassDataSource<T>(Shared = SharedType.PerClass)]` attribute
+- Replace `IAsyncLifetime` with `[Before(Test)]`/`[After(Test)]` methods
+- Replace `ITestOutputHelper` constructor parameter with `TestContext` method parameter
+- Convert data source methods to return tuples instead of `object[]`
+- Add `using TUnit.Core;` and `using TUnit.Assertions;` if not using implicit usings
+- Remove `ICollectionFixture` and collection definition classes
+
+**7. Remove xUnit packages**
+
+Once everything compiles and tests pass:
+
+```bash
+dotnet remove package xunit
+dotnet remove package xunit.runner.visualstudio
+```
+
+**8. Verify the migration**
+
+```bash
+dotnet build
+dotnet run -- --list-tests
+```
+
+### Troubleshooting
+
+**Code fixer doesn't run / no files changed:**
+- Ensure you rebuilt after adding TUnit packages
+- Check that `TUXU0001` warnings appear in build output
+- Try running with verbose output: `dotnet format analyzers --severity info --diagnostics TUXU0001 --verbosity detailed`
+
+**Build errors after running code fixer:**
+- Missing `await` keywords: ensure test methods are `async Task`
+- Ambiguous `Assert`: remove xUnit usings or fully qualify types
+- Type mismatch in data sources: convert `IEnumerable<object[]>` returns to `IEnumerable<(...)>` tuples
+
+**IClassFixture not converted:**
+- This requires manual conversion - add `[ClassDataSource<T>(Shared = SharedType.PerClass)]` to the class
+- Use a primary constructor to receive the fixture: `public class MyTests(MyFixture fixture)`
+
+**Analyzers not loading:**
+- Verify TUnit package is installed: `dotnet list package`
+- Try cleaning and rebuilding: `dotnet clean && dotnet build`
 
 ## Manual Migration Guide
 
